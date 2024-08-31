@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root{
+
+    --Soft-red:rgb(241, 80, 120);
+    
+}
+
+
+
+body{
+
+
+    font-family: "inter";
+}
+.navbar{
+
+
+
+    animation:fadeInNavbar 2s ease-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@keyframes fadeInNavbar{
+
+from{
+    opacity:0;
+    transform: translateY(-100%);
+}
+to{
+
+
+    opacity: 1;
+    transform: translateY(0);
+}
+
+}
+.navbar-nav  .nav-item .nav-link{
+
+color: hsl(240,4%,18%);
+transition: 0.5s color ease;
+
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+
+color:var(--Soft-red);
+
+
+}
+.button{
+
+    background-color: hsl(5, 85%,63%) ;
+    padding: 1em 1.5em;
+    margin-top: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:hsl(36,100%,99%);
+    letter-spacing: 0.25em;
+    font-weight: 700;
+display: inline-block;
+transition :background-color .5s ease;
+
+
+}
+.button:hover{
+
+    background-color: hsl(240,100%,5%);
+}
+
+
+
+
+@media only screen and (max-width:767px)
+{
+
+    .responsive-img{
+        content:url('./images/puzzle-copy.jpg');
+
+
+    }
+}
+#im1{
+
+    width:50px;
+}
+
+
+/*Aside section*/
+aside{
+
+    background-color: hsl(240,100%,5%);
+    color: hsl(36,100%,99%);
+    padding:1em;
+    animation: fadeInFromRight 1s ease forwards;
+}
+
+.heading{
+
+    font-size: 2.5em;
+    color:hsl(35,77%,62%)
+}
+.article{
+
+    margin: 1.5em 0.25em;
+}
+.article a{
+    text-decoration:none;
+    color: hsl(36,100%,99%);
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    font-size:1.25em;
+    display: inline-block;
+    transition:color 0.5s ease;
+}
+article a:hover{
+
+    color:hsl(35,77%,63%);
+}
+
+
+
+@keyframes fadeInFromRight{
+
+    from{
+        opacity:0;
+        transform: translateX(100%);
+    }
+    to{
+    
+    
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.boxp
+{
+float: left;
+border:none;
+background-color:white;
+width: 100%;
+
+padding: 5px;
+margin-right: 5px;
+margin-left: 1px;
+
+height:100%
+}
+
+
+.boxp1
+{
+float: right;
+border:2px solid blue;
+background-color:white;
+width: 50%;
+padding: 15px;
+margin-left: 5px;
+margin-right: 5px;
+
+    
+
+}
+
+.boxp11
+{
+float: left;
+background-color:blue;
+width: 100%;
+padding: 15px;
+margin-left: 5px;
+margin-right: 5px;
+background-image: url('IMAGE/istockphoto-949118068-612x612.jpg');
+background-size: cover;
+
+
+}
+
+
+
+
+
+
+#b1{
+
+    background-color: green;
+}
+p{
+text-align:justify;
+
+
+}
+#bo1{
+background-color:beige
+
+}
+
+
+body{
+    background-color:darkslategray;
+
+
+}
+
+#im1{
+
+    height: 300px;
+    width:300px;
+}
+.container
+{
+
+    margin-top: 5px;
+    background-color: none;
+
+}
